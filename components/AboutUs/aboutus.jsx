@@ -46,7 +46,7 @@ const AboutUs = () => {
              
              <div className={styles.aboutimg2}>
              <Image 
-                src={ok1}
+                src={ok1.src}
                 alt="about_right"
                 width={447}
                 height={468}
