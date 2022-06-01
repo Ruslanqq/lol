@@ -7,7 +7,7 @@ import ok1 from '../../pages/static/a.png'
 const AboutUs = () => {
   return (
     <section id="AboutUs" className={styles.about__us} >
-          <div className={styles.cont}>
+          <div className={styles.cont} style={{maxWidth:'1200px', margin:'0 auto'}}>
             <div className={styles.about__text}>
               <h3 className={styles.about__h3}>О нас </h3>
               <div className={styles.info__wrapper}>
