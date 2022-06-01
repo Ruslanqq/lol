@@ -1,10 +1,6 @@
 
 
-.about__text{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-  }
+
   
   .info__wrapper{
     max-width: 65%;

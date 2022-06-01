@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <section id="AboutUs" className={styles.about__us} >
           <div className={styles.cont} style={{maxWidth:'1200px', margin:'0 auto'}}>
-            <div className={styles.about__text}>
+            <div className={styles.about__text}  style={{display:'flex', justifyContent:'space-between', paddingTop:'100px'}}>
               <h3 className={styles.about__h3}>О нас </h3>
               <div className={styles.info__wrapper}>
                 <p>
