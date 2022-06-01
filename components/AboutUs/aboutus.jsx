@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./aboutus.module.css";
 import React from "react";
+import ok1 from '../../pages/static/about__us.jpg'
 
 const AboutUs = () => {
   return (
@@ -45,7 +46,7 @@ const AboutUs = () => {
              
              <div className={styles.aboutimg2}>
              <Image 
-                src="/About_us-right.png"
+                src={ok1}
                 alt="about_right"
                 width={447}
                 height={468}
