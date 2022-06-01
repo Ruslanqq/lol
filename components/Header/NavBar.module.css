@@ -1,0 +1,154 @@
+.nav_container{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header__right{
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  margin-top: -35px;
+}
+
+
+.nav_list{
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+  .header{
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .hero__content{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 376px;
+  }
+
+  .hero__h1{
+    font-family: 'Sitka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-bottom: 78px;
+  }
+
+  .header__item{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+  .header__button{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D5AA73;
+    border: 1px;
+    padding: 10px 20px;
+  }
+
+  .header__button1{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D5AA73;
+    border: 1px;
+    padding: 10px 20px;
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .hero__h1{
+      position: relative;
+      padding-top: 30px;
+      font-size: 44px;
+      margin-top: 50px;
+    }
+    .nav_list{
+      flex-flow: column nowrap;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background: #3A1D00;
+      display: none;
+      padding-top: 10px;
+    }
+    .header__right{
+      width: 45%;
+    }
+    .header__text{
+      margin-top: 80px;
+      margin-right: 50%;
+    }
+
+    .nav_logo{
+      position: absolute;
+      left: 20px;
+      z-index: -1;
+    }
+    .nav_container{
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      top: -5px;
+    }
+
+    .nav_logo{
+      position: absolute;
+      z-index: 1;
+      top: 30px;
+    }
+
+    .header__right{
+      position: absolute;
+      top: 40px;
+      z-index: -1;
+      left: 40%;
+      right: 40%;
+    }
+    .header__button{
+      display: none;
+    }
+
+    .header__button1{
+      display: block;
+      font-family: 'Avenir Next Cyr';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #FFFFFF;
+      background: #D5AA73;
+      border: 1px;
+      padding: 2px 44px;
+      max-width: 50%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .reverse{
+      display: flex;
+    }
+  };

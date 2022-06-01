@@ -1,0 +1,76 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+.project{
+    padding-top: 100px;
+    padding-bottom: 78px;
+  }
+  
+  .project__text{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project__wrapper{
+    max-width: 70%;
+  }
+  
+  .town__info{
+    display: flex;
+  }
+  
+  .town__info_right,.town__info_left{
+    max-width:28%;
+    text-align: center;
+  }
+  
+  .town__info_number{
+    font-family: 'Sitka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #D5AA73;
+    padding-bottom: 16px;
+    padding-top: 40px;
+  }
+  
+  .town__info_text{
+    font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  }
+  
+  
+  .town__info_left{
+    margin-right: 120px;
+  }
+
+  @media (max-width: 768px) {
+
+    .container{
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .project{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .project__text{
+      max-width: 100%;
+      flex-wrap: nowrap;
+      justify-content:center;
+      flex-flow: column nowrap;
+    }
+
+    .project__wrapper{
+      margin-left: 15%;
+      padding-top: 30px;
+    }
+  }

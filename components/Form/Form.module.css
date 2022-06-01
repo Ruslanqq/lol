@@ -1,0 +1,64 @@
+.form{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 30px;
+   
+}
+
+
+.input{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #3A1D00;;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+
+}
+
+.form__button{
+    padding: 16px 128px;
+    background: #D5AA73;
+}
+
+.text__checkbox{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: -20px;
+    
+  }
+
+  .form__button{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+
+  @media (max-width: 768px) {
+    .form{
+      display: flex;
+      flex-flow: column nowrap;
+      row-gap: 30px;
+      max-width: 70%;
+      margin-left: 15%;
+      margin-bottom: 50px;
+  }
+
+    .custom_checkbox{
+      display: none;
+    }
+  }
