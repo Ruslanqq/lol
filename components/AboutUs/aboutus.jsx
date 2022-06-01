@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section id="AboutUs" className={styles.about__us}>
+    <section id="AboutUs" className={styles.about__us} >
           <div className={styles.container}>
             <div className={styles.about__text}>
               <h3 className={styles.about__h3}>О нас </h3>
