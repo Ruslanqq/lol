@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./aboutus.module.css";
 import React from "react";
-import ok1 from '../../pages/static/about__us.jpg'
+import ok1 from '../../pages/static/a.png'
 
 const AboutUs = () => {
   return (
