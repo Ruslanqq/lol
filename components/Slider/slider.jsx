@@ -9,7 +9,7 @@ export default class Responsive extends Component {
     var settings = {
       arrows: false,
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -89,6 +89,7 @@ export default class Responsive extends Component {
                   />
           </div>
           </div>
+          
           <div>
           </div>
         </Slider>
