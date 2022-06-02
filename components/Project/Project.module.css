@@ -111,3 +111,27 @@
       margin-right: 35px;
     }
   }
+
+  @media (max-width: 320px) {
+    .container{
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+   
+    .town__info_left{
+      max-width: 100%;
+    }
+    .town__info{
+      flex-wrap: nowrap;
+      justify-content:center;
+      gap: 2px;
+    }
+    .town__info_left{
+      margin-left: -80px;
+    }
+    .town__info_right{
+      margin-left: -110px;
+      margin-right: 35px;
+    }
+  }

@@ -55,7 +55,7 @@ h3{
 }
 
 hr{
-  max-width: 50%;
+  width: 50%;
   margin-left: 0;
   margin-top: 48px;
   border: 2px solid #D5AA73;
@@ -65,3 +65,16 @@ hr{
   padding-top: 48px;
 }
 
+
+@media (max-width: 575px) {
+  hr{
+    margin-left: -100px;
+    width: 400%;
+  }
+}
+@media (max-width: 320px) {
+  hr{
+    margin-left: -100px;
+    width: 400%;
+  }
+}

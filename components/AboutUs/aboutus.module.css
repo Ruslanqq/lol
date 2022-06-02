@@ -33,16 +33,16 @@
 
   .aboutimg {
     margin-bottom: 30px;
-    margin-right: -100px;
-    width: 100%;
-  }
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 100%;
+    
 
-  .about__img {
-    max-width: 80%;
-    margin-left: 40px;
   }
 
   .aboutimg2{
+    margin-right: 5%;
+    margin-left: 5%;
     padding-bottom: 50px;
   }
   .about__text {

@@ -68,3 +68,14 @@
       padding-right: 200px;
     }
   }
+
+  @media (max-width: 320px) {
+   
+    .form__button{
+      margin: 0 auto;
+      padding: 10px 130px 10px 30px;
+      margin-right: -10px;
+    }
+
+    
+  }

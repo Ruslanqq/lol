@@ -135,6 +135,10 @@
   }
 
   @media (max-width: 768px) {
+
+    .footer__hr{
+      width: 100%;
+    }
     .footer__item__link123{
       display: flex;
       justify-content: space-between;
@@ -225,3 +229,12 @@
     }
     
   }
+
+  @media (max-width: 320px) {
+    .footer__right{
+      margin-left: -50px;
+      max-width: 300%;
+    }
+  }
+
+  
