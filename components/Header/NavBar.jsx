@@ -8,6 +8,7 @@ import ok from '../../pages/static/hero.png'
 const Navbar = () => {
   return (
     <header className={styles.header} style={{   backgroundImage: `url(${ok.src})`}}>
+            <div className={styles.bgh}>
             <nav className={styles.nav_container}>
                 <Link href='/'>
                     <a>
@@ -32,6 +33,7 @@ const Navbar = () => {
                     </Link>
                 </div>
             </nav>
+            </div>
 
             <div className={styles.hero__content}>
                 <h1 className={styles.hero__h1}>Клубный дом</h1>

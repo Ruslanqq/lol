@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <section id="AboutUs" className={styles.about__us} >
           <div className={styles.cont} style={{maxWidth:'1200px', margin:'0 auto'}}>
-            <div className={styles.about__text}  style={{display:'flex', justifyContent:'space-between', paddingTop:'100px'}}>
+            <div className={styles.about__text} style={{display:'flex', justifyContent:'space-between', paddingTop:'100px'}}>
               <h3 className={styles.about__h3}>О нас </h3>
               <div className={styles.info__wrapper}>
                 <p>
@@ -36,7 +36,7 @@ const AboutUs = () => {
             </div>
             <div className={styles.about__img}>
             <div className={styles.aboutimg}>
-            <Image className={styles.aboutimg}
+            <Image
                 src="/About_us-left.jpg"
                 alt="about_left"
                 width={630}

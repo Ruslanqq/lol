@@ -14,7 +14,9 @@
   }
   
   .project__wrapper{
-    max-width: 70%;
+    max-width: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
   }
   
   .town__info{
@@ -69,8 +71,43 @@
       flex-flow: column nowrap;
     }
 
+    .hr{
+      width: 100% !important;
+    }
+
+    .town__info{
+      gap: 150px;
+      margin-left: 50px;
+    }
+
     .project__wrapper{
-      margin-left: 15%;
+      margin-left: 35px;
+      padding-right: 25px;
       padding-top: 30px;
+    }
+  }
+  @media (max-width: 575px) {
+    .container{
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .hr{
+      width: 100% !important;
+    }
+
+    .town__info{
+      gap: 150px;
+      margin-left: 50px;
+      flex-wrap: nowrap;
+      justify-content:center;
+      flex-flow: column nowrap;
+    }
+    .town__info_left{
+      margin-left: 35%;
+      margin-right: 35%;
+    }
+    .town__info_right{
+      margin-left: 35%;
     }
   }
