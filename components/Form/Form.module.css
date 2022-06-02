@@ -54,11 +54,17 @@
       flex-flow: column nowrap;
       row-gap: 30px;
       max-width: 70%;
-      margin-left: 15%;
+      margin-left: 5%;
+      width: 100%;
       margin-bottom: 50px;
   }
 
     .custom_checkbox{
       display: none;
+    }
+    .form__button{
+      text-align: center;
+      max-width: 100px;
+      padding-right: 200px;
     }
   }

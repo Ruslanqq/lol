@@ -20,3 +20,10 @@
         margin-right: 10%;
     }
   }
+
+  @media (max-width: 575px) {
+    .slick__wrapper{
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+  }

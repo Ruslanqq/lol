@@ -135,7 +135,12 @@
   }
 
   @media (max-width: 768px) {
-
+    .footer__item__link123{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
     .footer{
       margin: 0 auto;
       text-align: center;
@@ -151,9 +156,10 @@
     }
     .footer__wrapper{
         width: 100%;
+        display: flex;
         flex-wrap: nowrap;
         justify-content:center;
-        flex-flow: column nowrap;
+        flex-flow:column nowrap;
         text-align: center;
         
     }
@@ -165,10 +171,12 @@
 
     .footer__middle{
       max-width: 100%;
+      
     }
 
     .footer_right_list{
       width: 100%;
+      text-align: center;
       
     }
 
@@ -176,64 +184,44 @@
       margin-top: 30px;
       margin-left: 40%;
       margin-right: 30%;
+      
     }
 
-    .footer__item__link{
-      margin-left: 45%;
-      margin-right: 45%;
+    .footer__list{
+      display: flex;
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow:row;
+      
     }
 
     
   }
 
   @media (max-width: 575px) {
-
-    .footer{
-      margin: 0 auto;
-      text-align: center;
-      
-    }
-
-    .footer__left{
-      max-width: 100%;
-    }
-
-    .footer__right{
-      max-width: 100%;
-    }
-    .footer__wrapper{
-        width: 100%;
-        flex-wrap: nowrap;
-        justify-content:center;
-        flex-flow: column nowrap;
-        text-align: center;
-        
-    }
-
-    .container{
-      margin: 0 auto;
-      max-width: 100%;
-    }
-
-    .footer__middle{
-      max-width: 100%;
-    }
-
-    .footer_right_list{
-      width: 100%;
-      margin-left: -50px;
+    .footer__item__link123{
+      flex-direction: column;
     }
 
     .footer_social{
-      margin-top: 30px;
-      margin-left: 40%;
-      margin-right: 30%;
+     margin-left: 110px;
+     margin-right: 10px;
     }
-
+    .footer__item{
+      max-width: 300%;
+    }
     .footer__item__link{
-      margin-left: 45%;
-      margin-right: 45%;
+      margin-left: 35%;
+      
+    }
+    
+    .footer__middle{
+      padding-right: 30px;
+      padding-left: 30px;
     }
 
+    .footer_list{
+      max-width: 100%;
+    }
     
   }

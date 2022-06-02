@@ -16,7 +16,7 @@ const Project = () => {
             значительно улучшает и облегчает повседневные задачи важные
             современному человеку.
           </p>
-          <hr className={styles.hr}/>
+          <div className={styles.hr}><hr/></div>
           <div className={styles.town__info}>
             <div className={styles.town__info_left}>
               <p className={styles.town__info_number}>4</p>

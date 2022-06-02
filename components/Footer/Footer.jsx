@@ -33,6 +33,7 @@ const Header = () => {
         </div>
         <div className={styles.footer__middle}>
           <ul className={styles.footer_list}>
+            <div className={styles.footer__item__link123}>
             <li className={styles.footer__item__link}>
               <Link href="/">
                 <a className={styles.footer__item}>История</a>
@@ -48,6 +49,7 @@ const Header = () => {
                 <a className={styles.footer__item}>Проект</a>
               </Link>
             </li>
+            </div>
 
             <h4 className={styles.footer__contacts_title}>Контакты</h4>
             <ul className={styles.footer_contacts}>

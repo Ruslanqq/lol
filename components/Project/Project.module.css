@@ -24,7 +24,7 @@
   }
   
   .town__info_right,.town__info_left{
-    max-width:28%;
+    max-width:30%;
     text-align: center;
   }
   
@@ -72,7 +72,7 @@
     }
 
     .hr{
-      width: 100% !important;
+      width: 200% !important;
     }
 
     .town__info{
@@ -93,21 +93,21 @@
     }
 
     .hr{
-      width: 100% !important;
-    }
-
-    .town__info{
-      gap: 150px;
-      margin-left: 50px;
-      flex-wrap: nowrap;
-      justify-content:center;
-      flex-flow: column nowrap;
+      width: 200%;
     }
     .town__info_left{
-      margin-left: 35%;
-      margin-right: 35%;
+      max-width: 100%;
+    }
+    .town__info{
+      flex-wrap: nowrap;
+      justify-content:center;
+      gap: 5px;
+    }
+    .town__info_left{
+      margin-left: -55px;
     }
     .town__info_right{
-      margin-left: 35%;
+      margin-left: -40px;
+      margin-right: 35px;
     }
   }
