@@ -1,0 +1,9 @@
+.modal__button{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .modal__button{
+        display: none;
+    }
+  }

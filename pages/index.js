@@ -7,10 +7,13 @@ import AboutUs from "../components/AboutUs/aboutus";
 import Project from "../components/Project/project";
 import Footer from "../components/Footer/Footer";
 import Plan from "../components/plan/plan";
+import Modal from "../components/Modal/modal";
+import { init } from "emailjs-com";
 
 
 
 export default function Home() {
+  
   return (
     <>
         <Head/>
@@ -21,6 +24,7 @@ export default function Home() {
         <SimpleSlider/>
         <Plan/>
         <Footer/>
+        <Modal/>
     </>
   );
 }

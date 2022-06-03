@@ -2,6 +2,10 @@
 import Image from "next/image";
 import styles from "./plan.module.css";
 import React from "react";
+import BasicModal from "../Modal/modal"
+import BasicModal1 from "../Modal/modal1"
+import BasicModal2 from "../Modal/modal2"
+import BasicModal3 from "../Modal/modal3"
 
 const Plan = () => {
   return (
@@ -33,6 +37,7 @@ const Plan = () => {
       width={310}
       height={360}
     />
+    <BasicModal1/>
       </div>
    
       <div className={styles.plan__img}>
@@ -42,6 +47,7 @@ const Plan = () => {
       width={310}
       height={360}
     />
+    <BasicModal2/>
   </div>
   <div className={styles.plan__img}>
       <Image 
@@ -50,6 +56,7 @@ const Plan = () => {
       width={310}
       height={360}
     />
+    <BasicModal3/>
     </div>
     <div className={styles.plan__img}>
       <Image 
@@ -58,7 +65,9 @@ const Plan = () => {
       width={310}
       height={360}
     />
+    <BasicModal/>
     </div>
+    
     </div>
     </div>
   </section>
