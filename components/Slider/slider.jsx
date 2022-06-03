@@ -28,6 +28,7 @@ export default class Responsive extends Component {
         {
           breakpoint: 768,
           settings: {
+            swipe: true,
             slidesToShow: 2,
             slidesToScroll: 1,
             initialSlide: 1
@@ -36,6 +37,7 @@ export default class Responsive extends Component {
         {
           breakpoint: 480,
           settings: {
+            swipe: true,
             slidesToShow: 1,
             slidesToScroll: 1
           }

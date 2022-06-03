@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Image from "next/image";
-import modalimg from "../../public/plan1.png"
+import modalimg from "../../public/plan1.webp"
 import styles from "./modal.module.css";
 
 const style = {
