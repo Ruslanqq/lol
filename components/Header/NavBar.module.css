@@ -115,6 +115,7 @@
     }
 
     .nav_logo{
+      display: none;
       position: absolute;
       left: 20px;
       z-index: -1;
@@ -165,6 +166,10 @@
 
 
   @media (max-width: 768px) {
+
+    .nav_logo{
+      display: none;
+    }
     .bgh{
       background: #4B413E;
       opacity: 1;

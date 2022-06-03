@@ -7,8 +7,9 @@ import styles from "./slider.module.css";
 export default class Responsive extends Component {
   render() {
     var settings = {
+      swipe: false,
       arrows: false,
-      dots: true,
+      dots: false,
       infinite: false,
       speed: 500,
       slidesToShow: 4,
@@ -21,7 +22,7 @@ export default class Responsive extends Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: false
+            dots: true
           }
         },
         {

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./aboutus.module.css";
 import React from "react";
-import ok1 from '../../pages/static/a.png'
+import ok1 from '../../pages/static/about__us2.png'
 
 const AboutUs = () => {
   return (
@@ -48,8 +48,8 @@ const AboutUs = () => {
              <Image 
                 src={ok1.src}
                 alt="about_right"
-                width={447}
-                height={468}
+                width={347}
+                height={470}
               />
              </div>
             </div>
