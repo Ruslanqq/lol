@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .footer__hr{
+    min-width: 300%;
+  }
   
   .footer_right_list{
     align-items: center;
