@@ -72,7 +72,6 @@ const Plan = () => {
     </div>
   </section>
 
-    
   );
 };
 

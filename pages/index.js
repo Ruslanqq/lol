@@ -24,7 +24,6 @@ export default function Home() {
         <SimpleSlider/>
         <Plan/>
         <Footer/>
-        <Modal/>
     </>
   );
 }

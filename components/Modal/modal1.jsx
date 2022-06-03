@@ -6,6 +6,7 @@ import Modal from '@mui/material/Modal';
 import Image from "next/image";
 import modalimg from "../../public/plan1.webp"
 import styles from "./modal.module.css";
+import "./modal.module.css"
 
 const style = {
 
@@ -28,7 +29,7 @@ export default function BasicModal1() {
 
   return (
     <div>
-      <Button className={styles.modal__button} onClick={handleOpen}>Подробнее</Button>
+      <Button className={styles.modal_button} style={{color:'white'}} onClick={handleOpen}>Подробнее</Button>
       <Modal
         open={open}
         onClose={handleClose}
