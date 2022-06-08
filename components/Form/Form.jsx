@@ -27,26 +27,20 @@ export default function Form() {
   };
 
   return (
-        <form id='Form' action="ariuskg@gmail.com" className={styles.form}>
-          <label  htmlFor="name"></label>
-          <input className={styles.input}
-            id="name"
-            type="text"
-            onChange={e => setName(e.target.value)}
-            placeholder = "Имя"
-          />
-          <label htmlFor="email"></label>
-          <input className={styles.input}
-            id="number"
-            type="number"
-            placeholder = "Номер"
-            onChange={e => setEmail(e.target.value)}
-          />
-          <label className={styles.custom_checkbox}> <input   type="checkbox" checked={checked}
-          onChange={handleChange} /><p className={styles.text__checkbox}>Нажимая на кпопку вы соглашаетесь с политикой конфидициальности</p></label>
-          
-          <button className={styles.form__button} type="submit">Отправить</button>
-        </form>
+<form className={styles.form}  action="https://public.herotofu.com/v1/9488c200-e73b-11ec-b069-efe5ca590096" method="post">
+  <div>
+    <label htmlFor="name"></label>
+    
+    <input className={styles.input} placeholder='Имя' name="Name" id="name" type="text" required />
+  </div>
+  <div>
+    <label htmlFor="number"></label>
+    <input className={styles.input} placeholder='Номер' name="Number" id="email" type="text" required />
+  </div>
+  <div>
+    <input className={styles.form__button} type="submit" value="Отправить" />
+  </div>
+</form>
   );
 }
 
